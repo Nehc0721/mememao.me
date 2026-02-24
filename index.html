@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Academic homepage" />
+    <title>Academic Homepage</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="#top" id="navBrand">Academic</a>
+        <nav class="nav" aria-label="Primary">
+          <a class="nav__link" href="#research">Research</a>
+          <a class="nav__link" href="#publications">Publications</a>
+          <a class="nav__link" href="#teaching">Teaching</a>
+          <a class="nav__link" href="#news">News</a>
+          <a class="nav__link" href="#contact">Contact</a>
+          <a class="nav__link nav__link--pill" id="navCv" href="#" target="_blank" rel="noreferrer">CV</a>
+        </nav>
+      </div>
+    </header>
+    
+    <main id="top" class="container layout">
+      <aside class="sidebar" aria-label="Profile">
+        <section class="card profile">
+          <div class="profile__avatar" id="profileAvatar" aria-hidden="true">A</div>
+          <div class="profile__meta">
+            <h1 class="profile__name" id="profileName">Your Name</h1>
+            <div class="profile__title" id="profileTitle">Your Title</div>
+            <div class="profile__affil" id="profileAffiliation">Your Affiliation</div>
+            <div class="profile__location" id="profileLocation">Your Location</div>
+          </div>
+
+          <div class="profile__links" id="profileLinks" aria-label="Links"></div>
+
+          <p class="profile__bio" id="profileBio"></p>
+        </section>
+      </aside>
+
+      <div class="content" aria-label="Main content">
+        <section class="section" id="research">
+          <h2 class="section__title" id="researchTitle">Research</h2>
+          <div class="prose" id="researchBody"></div>
+        </section>
+
+        <section class="section" id="opportunities">
+          <h2 class="section__title">Research Opportunities</h2>
+          <div class="prose" id="opportunitiesBody"></div>
+        </section>
+
+        <section class="section" id="news">
+          <h2 class="section__title">News</h2>
+          <ul class="list" id="newsList"></ul>
+        </section>
+
+        <section class="section" id="publications">
+          <h2 class="section__title">Selected Publications</h2>
+          <div class="toolbar">
+            <input class="search" id="pubSearch" type="search" placeholder="Search publications…" autocomplete="off" />
+          </div>
+          <ol class="pubs" id="pubList"></ol>
+        </section>
+
+        <section class="section" id="teaching">
+          <h2 class="section__title">Teaching</h2>
+          <ul class="list" id="teachingList"></ul>
+        </section>
+
+        <section class="section" id="contact">
+          <h2 class="section__title">Contact</h2>
+          <div class="prose" id="contactBody"></div>
+        </section>
+
+        <footer class="footer">
+          <div class="footer__inner">
+            <span id="footerCopyright"></span>
+            <span class="footer__sep">·</span>
+            <a class="footer__link" href="#top">Back to top</a>
+          </div>
+        </footer>
+      </div>
+    </main>
+
+    <script src="./data/profile.js"></script>
+    <script src="./assets/main.js" defer></script>
+  </body>
+</html>
