@@ -1,15 +1,14 @@
 window.__PROFILE__ = {
-  name: "Your Name",
-  title: "Your Title",
-  affiliation: "Your University / Organization",
-  location: "Your City, Country",
+  name: "世鑫 · Shixin",
+  title: "Ph.D. Student",
+  affiliation: "Shenzhen, China",
+  location: "Shenzhen, China",
   cvUrl: "",
-  bio: "Write a short bio here. Keep it concise and research-focused.",
+  bio: "Ph.D. student based in Shenzhen, China. Research interests lie in machine learning and intelligent systems.",
   links: [
-    { label: "Email", url: "mailto:your@email.com" },
-    { label: "Google Scholar", url: "https://scholar.google.com/" },
-    { label: "GitHub", url: "https://github.com/" },
-    { label: "Twitter/X", url: "https://x.com/" }
+    { label: "Email", url: "mailto:bluah0721@gmail.com" },
+    { label: "GitHub", url: "https://github.com/Nehc0721" },
+    { label: "Twitter/X", url: "https://x.com/Eibil470027" }
   ],
   researchTitle: "Research",
   researchHTML:
@@ -38,5 +37,5 @@ window.__PROFILE__ = {
     { term: "2025 Fall", text: "Course Name (Instructor)" }
   ],
   contactHTML:
-    '<p>Email: <a href="mailto:your@email.com">your@email.com</a><br/>Office: Building / Room<br/>Address: Street, City, Country</p>'
+    '<p>Email: <a href="mailto:bluah0721@gmail.com">bluah0721@gmail.com</a><br/>Location: Shenzhen, China</p>'
 };
