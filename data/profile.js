@@ -4,7 +4,7 @@ window.__PROFILE__ = {
   affiliation: "Shenzhen, China",
   location: "Shenzhen, China",
   cvUrl: "",
-  bio: "Ph.D. student based in Shenzhen, China. Research interests lie in machine learning and intelligent systems.",
+  bio: "高级成年人 based in Shenzhen, China. Research interests lie in machine learning and intelligent systems.",
   links: [
     { label: "Email", url: "mailto:bluah0721@gmail.com" },
     { label: "GitHub", url: "https://github.com/Nehc0721" },
