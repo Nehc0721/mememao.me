@@ -1,6 +1,6 @@
 window.__PROFILE__ = {
   name: "世鑫 · Shixin",
-  title: "Ph.D. Student",
+  title: "高级成年人",
   affiliation: "Shenzhen, China",
   location: "Shenzhen, China",
   cvUrl: "",
